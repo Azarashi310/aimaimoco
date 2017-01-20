@@ -1,0 +1,40 @@
+extends ./common/jade/template
+block meta
+	-var title = "あいまいもこ"
+	-var description = ""
+	-var keyword = ""
+	-var og_name = "";
+	-var og_title = "";
+	-var og_description = "";
+	-var og_url = "";
+	-var og_img = "";
+	-var dir_root = "./";
+	-var css = "./css/index.css";
+block js
+
+block css
+
+block contents
+	#mv
+		.inner
+			p.mv__visual
+				img(src="./images/mv_visual.jpg",alt="あいまいもこ")
+	#movie
+		.inner
+			.movie__inner
+				ul.movieList
+					li.list
+						.movie
+							<iframe id="content" src="https://www.youtube.com/embed/wYeDsAMBtls" frameborder="0" allowfullscreen></iframe>
+						.description
+							p.text.smart テキストが入ります
+					li.list
+						.movie
+							<iframe id="content" src="https://www.youtube.com/embed/wYeDsAMBtls" frameborder="0" allowfullscreen></iframe>
+						.description
+							p.text.smart テキストが入ります
+					li.list
+						.movie
+							<iframe id="content" src="https://www.youtube.com/embed/wYeDsAMBtls" frameborder="0" allowfullscreen></iframe>
+						.description
+							p.text.smart テキストが入ります

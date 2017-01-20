@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+//----       import common style     ----
+@import "../common/css/mixin";
+//----    end of import common style ----
+
+//----       import parts style     ----
+@import "_pc/pc";
+@import "_sp/sp";
+//----    end of import parts style ----

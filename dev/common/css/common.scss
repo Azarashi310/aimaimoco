@@ -1,0 +1,70 @@
+@charset "utf-8";
+@import "mixin";
+@font-face {
+	font-family: 'smartFont';
+	src: url("../font/smartfont.otf");
+}
+img{
+	width:100%;
+}
+ul{
+	list-style: none;
+}
+.inner{
+	@include pc{
+		width:750px;
+		margin:0 auto;
+	}
+	@include sp{
+		margin:0 10px;
+	}
+}
+.smart{
+	font-family: 'smartFont';
+}
+#header{
+	background: linear-gradient(to right,#ffffff,#007d8e);
+	text-align: right;
+	@include pc{
+		height:50px;
+	}
+	@include sp{
+		height:35px;
+	}
+	.header__text{
+		display: inline-block;
+		@include pc{
+			margin:0 17px 0 0;
+			padding:14px 0;
+			width:126px;
+		}
+		@include sp{
+			margin:0 10px 0 0;
+			padding:10px 0;
+			width:95px;
+		}
+	}
+}
+#footer{
+	background: linear-gradient(to right,#ffffff,#007d8e);
+	@include pc{
+		height:50px;
+	}
+	@include sp{
+		height:35px;
+	}
+	.footer__text{
+		text-align: right;
+		color: #fefefe;
+		@include pc{
+			line-height: 50px;
+			margin:0 18px 0 0;
+			font-size: 13px;
+		}
+		@include sp{
+			line-height: 35px;
+			margin:0 10px 0 0;
+			font-size:11px;
+		}
+	}
+}
