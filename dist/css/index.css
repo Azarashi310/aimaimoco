@@ -89,11 +89,15 @@
 	background-color: #1e9ebc;
 }
 
-#main #movie .description .text {
+#main #movie .description .textimg {
+	height: 16px;
 	line-height: 40px;
-	font-size: 18px;
-	color: #fefefe;
 	margin: 0 0 0 22px;
+}
+
+#main #movie .description .textimg img {
+	width: auto;
+	height: 100%;
 }
 
 }

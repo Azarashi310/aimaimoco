@@ -33,10 +33,15 @@
 				height:40px;
 				background-color: #1e9ebc;
 				.text{
+				}
+				.textimg{
+					height:16px;
 					line-height: 40px;
-					font-size:18px;
-					color: #fefefe;
 					margin:0 0 0 22px;
+					img{
+						width:auto;
+						height:100%;
+					}
 				}
 			}
 		}
