@@ -32,11 +32,22 @@
 			.description{
 				height:40px;
 				background-color: #1e9ebc;
-				.text{
-					line-height: 40px;
-					font-size:13px;
-					color: #fefefe;
+				&:before{
+					content: '';
+					display: inline-block;
+					height:100%;
+					vertical-align: middle;
+				}
+				.textimg{
+					height:11px;
 					margin:0 0 0 11px;
+					display: inline-block;
+					vertical-align: middle;
+					font-size:0;
+					img{
+						width:auto;
+						height:100%;
+					}
 				}
 			}
 		}

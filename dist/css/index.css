@@ -39,11 +39,24 @@
 	background-color: #1e9ebc;
 }
 
-#main #movie .description .text {
-	line-height: 40px;
-	font-size: 13px;
-	color: #fefefe;
+#main #movie .description:before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
+#main #movie .description .textimg {
+	height: 11px;
 	margin: 0 0 0 11px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0;
+}
+
+#main #movie .description .textimg img {
+	width: auto;
+	height: 100%;
 }
 
 }
@@ -89,10 +102,19 @@
 	background-color: #1e9ebc;
 }
 
+#main #movie .description:before {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+
 #main #movie .description .textimg {
 	height: 16px;
-	line-height: 40px;
 	margin: 0 0 0 22px;
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 0;
 }
 
 #main #movie .description .textimg img {

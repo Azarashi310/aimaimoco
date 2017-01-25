@@ -32,12 +32,18 @@
 			.description{
 				height:40px;
 				background-color: #1e9ebc;
-				.text{
+				&:before{
+					content: "";
+					display: inline-block;
+					height:100%;
+					vertical-align: middle;
 				}
 				.textimg{
 					height:16px;
-					line-height: 40px;
 					margin:0 0 0 22px;
+					display: inline-block;
+					vertical-align: middle;
+					font-size:0;
 					img{
 						width:auto;
 						height:100%;
